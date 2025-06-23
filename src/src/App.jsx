@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, RotateCcw, CheckCircle, XCircle, Award, HelpCircle, Sparkles, Loader2 } from 'lucide-react';
-import 'App.css'
+import './App.css';
 
 // Sample Questions Data (Fallback)
 const SAMPLE_QUESTIONS = [
@@ -215,7 +215,7 @@ export default function App() {
 
   // Function to make API calls to Gemini
   const callGeminiAPI = async (prompt, isJson = false) => {
-    const apiKey = ""; // Provided by Canvas environment
+    const apiKey = "AIzaSyB4e6gPt2bHNTIjnEdn5RoBnS7ap-5akX4"; // Provided by Canvas environment
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
     
     let payload = {
