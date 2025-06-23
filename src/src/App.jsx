@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, RotateCcw, CheckCircle, XCircle, Award, HelpCircle, Sparkles, Loader2 } from 'lucide-react';
-import 'first.css'
+import 'App.css'
 
 // Sample Questions Data (Fallback)
 const SAMPLE_QUESTIONS = [
